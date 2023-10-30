@@ -54,14 +54,70 @@
 		317832FB2AEF27F100761AB4 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				317832FC2AEF27F100761AB4 /* AppDelegate.swift */,
-				317832FE2AEF27F100761AB4 /* SceneDelegate.swift */,
-				317833002AEF27F100761AB4 /* ViewController.swift */,
-				317833052AEF27F100761AB4 /* Assets.xcassets */,
-				317833072AEF27F100761AB4 /* LaunchScreen.storyboard */,
+				317833162AEF29DA00761AB4 /* Resources */,
+				317833152AEF29D100761AB4 /* Managers */,
+				317833142AEF29BA00761AB4 /* APIClient */,
+				317833132AEF29B100761AB4 /* ViewModels */,
+				317833122AEF29AA00761AB4 /* Views */,
+				317833112AEF29A200761AB4 /* Models */,
+				317833102AEF299900761AB4 /* Controllers */,
 				3178330A2AEF27F100761AB4 /* Info.plist */,
 			);
 			path = RickAndMorty;
+			sourceTree = "<group>";
+		};
+		317833102AEF299900761AB4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				317833002AEF27F100761AB4 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		317833112AEF29A200761AB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		317833122AEF29AA00761AB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		317833132AEF29B100761AB4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		317833142AEF29BA00761AB4 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		317833152AEF29D100761AB4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		317833162AEF29DA00761AB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				317832FC2AEF27F100761AB4 /* AppDelegate.swift */,
+				317832FE2AEF27F100761AB4 /* SceneDelegate.swift */,
+				317833052AEF27F100761AB4 /* Assets.xcassets */,
+				317833072AEF27F100761AB4 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
